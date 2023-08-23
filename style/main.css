@@ -6,3 +6,46 @@
 .title {
     
 }
+.nombreGrupo{
+    width: 172px;
+    height: 20px;
+    margin: 0 0 20px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--cool-grey);
+}
+.link{
+  width: 114px;
+  height: 60px;
+  margin: 20px 50px 30px;
+  opacity: 0.75;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing:normal;
+  text-align: center;
+  color: var(--gunmetal);
+   background-color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+   --spacing-xxs: 4px;
+
+ }
+ menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+ }
+
+ 
+
+  
