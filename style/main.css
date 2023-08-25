@@ -168,7 +168,7 @@ p{
     padding-top: 10px;
 }
 
-.fotoadalaber{
+.photoadalaber{
     width: 180px;
     height: 180px;
     margin: 0 55px 15px;
@@ -178,16 +178,14 @@ p{
     padding-top: 10px;
 }
 
-.logo{
+.icon{
     color: #099d8d;
     size:16px;
     line-height: 30px;
     padding-top: 10px;
-    flex-direction: row;
-
-    
+    flex-direction: row;   
 }
-.point{
+/*point{Esto por ahora no se usara, porque aun no se como integrar los puntos con los logos"
     size:4px;
     line-height: 15px;
     color: black;
@@ -195,4 +193,5 @@ p{
     padding-left: 5px;
     padding-right: 5px;
     flex-direction: row;
-}
+}*/
+
