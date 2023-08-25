@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
 } 
 .page {
     margin:0;
@@ -74,49 +75,35 @@
     justify-items: center;
     font-size: 16px;
 }
-.nombreGrupo{
-    line-height: 1.43;
-    letter-spacing: normal;
+.footer-copy{
     align-items: center;
     color: #b8b8b9;
-    justify-content: space-around;
-    display: flex;
-    
+    display: flex; 
+    flex-direction: column; 
+    font-size: 14px;
+    padding-bottom: 20px;
 }
-.link{
-  width: 114px;
-  height: 60px;
-  opacity: 0.75;
-  font-family: OpenSans;
-  font-size: 14px;
-  font-weight: 600;
-  font-stretch: normal;
-  line-height: 1.43;
-  text-align: center;
-  color: grey;
-  background-color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  -spacing-xxs: 4px;
-  line-height: 24px;
-  margin-left: 250px;
-  margin-top: 50px;
-  position: relative;
+.contact-footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
 
 }
-.nav2{
+ .log2{
+    width: 115.9px;
+    height: 45px;
     display: flex;
     align-items: center;
-    list-style: none;
-    justify-content: center;
-    margin-top: 100px;
+    margin-left: 100px;
     
 
- }
- .log2{
-     width: 115.9px;
-     height: 45px;
-     margin-left: 250px;
 }
 
 .Atribute {
@@ -136,12 +123,10 @@
     text-align: center;
     line-height: 45px;
 }
-
 .section2-about-us{
     text-align: center;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
-
 }
 h2{
 font-family: rubik-medium;
