@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .page {
@@ -86,12 +87,17 @@
     font-size: 16px;
 }
 
-.nombreGrupo {
-    line-height: 1.43;
-    letter-spacing: normal;
+.footer-copy {
     align-items: center;
     color: #b8b8b9;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.contact-footer {
+    align-items: center;
     display: flex;
 
 }
@@ -153,7 +159,25 @@
     border-top: 40px solid transparent;
     border-left: 40px solid transparent;
     border-bottom: 40px solid white;
-    transform: rotate(180deg)
+    transform: rotate(180deg);
+    flex-direction: column;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.log2 {
+    width: 115.9px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+
 }
 
 .Atribute {
@@ -181,7 +205,6 @@
     text-align: center;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
-
 }
 
 h2 {
