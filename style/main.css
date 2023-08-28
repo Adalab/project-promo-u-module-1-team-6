@@ -17,8 +17,12 @@
 }
 
 .container {
+<<<<<<< HEAD
+    margin:0 1.5rem;
+=======
     margin: 0 1.5rem;
 
+>>>>>>> b440c734db8588a6dbda2d523d466d77269ffb58
 }
 
 .page-header {
