@@ -107,6 +107,10 @@
     padding-bottom: 20px;
 
 }
+.link{
+    text-decoration: none;
+    list-style: none;
+}
  .log2{
     width: 115.9px;
     height: 45px;
@@ -117,7 +121,7 @@
 
 }
 
-.nav2 {
+/*.nav2 {
     display: flex;
     align-items: center;
     list-style: none;
@@ -125,7 +129,7 @@
     margin-top: 100px;
 
 
-}
+}*/
 
 .log2 {
     width: 115.9px;
