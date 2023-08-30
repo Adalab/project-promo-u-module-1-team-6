@@ -2,9 +2,9 @@
   margin:0 1.5rem;
 }
 .header {
-  height: 5rem;
+  height: 6rem;
   margin: 0;
-  width: 100%;
+  width: 32rem;
   text-transform: uppercase;
   background-color: #099d8d;
   color: #ffffff;
@@ -32,6 +32,10 @@
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
+
+      @media (min-width:320px){
+        display: flex;
+      }
 }
 
 .menu_link {
@@ -41,12 +45,13 @@
 }
 
 .hero {
-  width: 100%;
+  width: auto;
   height: 42.10rem;
   background-image: url(https://www.portafolio.co/files/article_multimedia/uploads/2021/08/27/612993de37c2c.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+ background-position: left right;
+ 
 }
 
 .hero .container {
