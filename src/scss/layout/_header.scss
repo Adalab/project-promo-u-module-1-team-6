@@ -1,13 +1,16 @@
 .container {
   margin:0 1.5rem;
 }
-.header {
+.header{
   height: 6rem;
   margin: 0;
   width: 32rem;
+  position: fixed;
   text-transform: uppercase;
+  opacity: 90%;
   background-color: #099d8d;
   color: #ffffff;
+
 }
 
 .title{
@@ -15,6 +18,9 @@
   display: flex;
   justify-content: space-around;
   font-size: 16px16px;
+  @media (min-width: 768px){
+    margin: 0 4.5rem;
+  }
 }
 
 .menu{
