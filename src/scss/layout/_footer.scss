@@ -13,29 +13,62 @@
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.5;
-  color: grey;
   text-align: center;
   text-decoration: none;
   margin-bottom: 40px;
+}
+.link{
+  color: grey;
+  text-decoration: none;
+}
+ ul{
+  list-style: none;
+
 }
 .log2{
   width: 115.9px;
   height: 45px;
   display: flex;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 120px;
   justify-content: center;
   flex-direction: column;
-}
- .link{
-  color: grey;
-}
- ul{
-  list-style: none;
 }
 @media all and(min-width: 768px){
   .nav{
     display: none
+}
+.footer-copy{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 20px;
+ 
+}
+.contact-footer{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  text-align: right;
+  line-height: 2;
+}
+.log2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  width: 120px;
+  height: 90px; 
+  padding: 20px;
+  
+ 
+ 
+}
+footer{
+
+
 }
 }
 
