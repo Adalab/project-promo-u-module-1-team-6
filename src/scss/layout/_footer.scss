@@ -16,22 +16,23 @@
   color: grey;
   text-align: center;
   text-decoration: none;
-  padding-bottom: 20px;
-
+  margin-bottom: 40px;
 }
 .log2{
   width: 115.9px;
   height: 45px;
   display: flex;
   align-items: center;
-  margin-left: 100px;
- }
+  margin-left: 200px;
+  justify-content: center;
+  flex-direction: column;
+}
  .link{
-  list-style: none;
-  text-decoration: none;
   color: grey;
- }
-
+}
+ ul{
+  list-style: none;
+}
 @media all and(min-width: 768px){
   .nav{
     display: none
