@@ -4,17 +4,14 @@
     background-color: rgb(255, 255, 255);
 }
 
-h2 {
+.title-about-us {
     font-family: rubik-medium;
     color: #099d8d;
     font-size: 24px;
     line-height: 45px;
 }
 
-
-
-
-h3 {
+.name_adalaber {
     position: absolute;
     top: 10px;
     font-family: OpenSans;
@@ -23,8 +20,7 @@ h3 {
     line-height: 45px;
 
 }
-
-p {
+.description_adalaber {
     font-family: var(--font-family-description-adalaber);
     color: #54585a;
     font-size: 16px;
@@ -33,7 +29,7 @@ p {
     padding-top: 10px;
 }
 
-.photoadalaber {
+.photo_adalaber {
     width: 180px;
     height: 180px;
     margin: 0 55px 15px;
@@ -43,7 +39,7 @@ p {
     padding-top: 10px;
 }
 
-.icon {
+.social_networks {
     color: #099d8d;
     size: 16px;
     line-height: 30px;
