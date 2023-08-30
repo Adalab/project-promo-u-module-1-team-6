@@ -13,10 +13,16 @@
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.5;
-  color: grey;
   text-align: center;
   text-decoration: none;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.link{
+  color: grey;
+  text-decoration: none;
+}
+ ul{
+  list-style: none;
 
 }
 .log2{
@@ -24,33 +30,46 @@
   height: 45px;
   display: flex;
   align-items: center;
-  margin-left: 100px;
-  
-
-}
-
-.nav2 {
-  display: flex;
-  align-items: center;
-  list-style: none;
+  margin-left: 120px;
   justify-content: center;
-  margin-top: 100px;
-
-
+  flex-direction: column;
 }
-
-.log2 {
-  width: 115.9px;
-  height: 45px;
-  margin-left: 250px;
+@media all and(min-width: 768px){
+  .nav{
+    display: none
 }
-
-.log2 {
-  width: 115.9px;
-  height: 45px;
+.footer-copy{
+  position: relative;
   display: flex;
-  align-items: center;
-  margin-left: 100px;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 20px;
+ 
+}
+.contact-footer{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  text-align: right;
+  line-height: 2;
+}
+.log2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  width: 120px;
+  height: 90px; 
+  padding: 20px;
+  
+ 
+ 
+}
+footer{
 
 
 }
+}
+
+

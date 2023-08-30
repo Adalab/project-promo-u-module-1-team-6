@@ -1,62 +1,63 @@
-* {
-  list-style: none;
-}
-
-.page {
-  margin: 0;
-
-}
-
 .container {
   margin:0 1.5rem;
 }
-
-.page-header {
-  height: 5rem;
+.header{
+  height: 6rem;
   margin: 0;
-  width: 100%;
+  width: 32rem;
+  position: fixed;
   text-transform: uppercase;
+  opacity: 90%;
   background-color: #099d8d;
   color: #ffffff;
+
 }
 
-.page-header-title {
+.title{
   margin: 0;
   display: flex;
   justify-content: space-around;
   font-size: 16px16px;
+  @media (min-width: 768px){
+    margin: 0 4.5rem;
+  }
 }
 
-.header {
-  height: 3.5rem;
-  width: 100%;
-  text-transform: uppercase;
-  background-color: #14d9c4;
-  display: flex;
-  font-size: 16px;
+.menu{
+    height: 3.5rem;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #14d9c4;
+    display: flex;
+    font-size: 16px
 }
 
-.header-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
+.menu_list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+
+      @media (min-width:320px){
+        display: flex;
+      }
 }
 
-.boton {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px15px;
+.menu_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px15px;
 }
 
 .hero {
-  width: 100%;
+  width: auto;
   height: 42.10rem;
-  background-image: url(../Imagenes/equipo.jpg);
+  background-image: url(https://www.portafolio.co/files/article_multimedia/uploads/2021/08/27/612993de37c2c.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+ background-position: left right;
+ 
 }
 
 .hero .container {
@@ -67,12 +68,13 @@
 }
 
 .hero-title {
-  margin: 0;
   padding: 1rem;
   background-color: #ffffff;
+  color:black;
   transform: translateY(50%);
   flex-grow: 1;
   margin: 0 1.5rem;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   font-size: 16px;
 }
