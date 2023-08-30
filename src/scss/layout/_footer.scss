@@ -25,32 +25,17 @@
   display: flex;
   align-items: center;
   margin-left: 100px;
-  
-
-}
-
-.nav2 {
-  display: flex;
-  align-items: center;
+ }
+ .link{
   list-style: none;
-  justify-content: center;
-  margin-top: 100px;
+  text-decoration: none;
+  color: grey;
+ }
 
-
+@media all and(min-width: 768px){
+  .nav{
+    display: none
+}
 }
 
-.log2 {
-  width: 115.9px;
-  height: 45px;
-  margin-left: 250px;
-}
 
-.log2 {
-  width: 115.9px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-
-
-}
