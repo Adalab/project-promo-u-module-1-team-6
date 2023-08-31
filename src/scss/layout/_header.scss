@@ -9,6 +9,16 @@
   opacity: 90%;
   background-color: #099d8d;
   color: #ffffff;
+  @media (min-width: 768px){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 85%;
+    background-color: #099d8d;
+    @media (min-width:1200px){
+      justify-content: space-evenly;
+    }
+  }
 
 }
 
@@ -18,9 +28,14 @@
   height: 6rem;
   align-items: center;
   justify-content: space-around;
-  font-size: 16px16px;
+  font-size: 16px;
   @media (min-width: 768px){
-    margin: 0 4.5rem;
+    width: 100vw;
+    height: 100%;
+    justify-content:center;
+    @media (min-width:1200px){
+      justify-content: space-evenly;
+    }
   }
 }
 
@@ -30,7 +45,12 @@
     text-transform: uppercase;
     background-color: #14d9c4;
     display: flex;
-    font-size: 16px
+    font-size: 16px;
+    @media (min-width: 768px){
+      background-color: #099d8d;
+      width: 100vw;
+      height: 100%;
+    }
 }
 
 .menu_list{
@@ -41,25 +61,27 @@
     justify-content: space-around;
     list-style-type: none;
 
-      @media (min-width:320px){
-        display: flex;
+      @media (min-width:768px){
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+        text-transform: uppercase;
       }
 }
 
 .menu_link {
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px15px;
+    font-size: 15px;
 }
 
-.hero {
+.hero{
   width: auto;
   height: 42.10rem;
   background-image: url(https://www.portafolio.co/files/article_multimedia/uploads/2021/08/27/612993de37c2c.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
- background-position: left right;
- 
+
 }
 
 .hero .container {
@@ -67,16 +89,18 @@
   display: flex;
   align-items: flex-end;
   font-size: 18px;
+
 }
 
-.hero-title {
+.hero-title{
   padding: 1rem;
-  background-color: #ffffff;
-  color:black;
-  transform: translateY(50%);
-  flex-grow: 1;
   margin: 0 1.5rem;
   display: flex;
   justify-content: center;
   font-size: 16px;
+  background-color: #ffffff;
+  color:black;
+  transform: translateY(50%);
+  flex-grow: 1;
+
 }
