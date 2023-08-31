@@ -47,28 +47,25 @@
  
 }
 .contact-footer{
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
   text-align: right;
   line-height: 2;
+  right: 0px;
+  top: 1780px;
+  
 }
 .log2{
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: row;
   margin-left: 30px;
-  width: 120px;
+  width: 150px;
   height: 90px; 
   padding: 20px;
-  
- 
- 
-}
-footer{
-
-
+  top: 1830px;
 }
 }
 
