@@ -13,7 +13,6 @@
     align-items: center;
     font-family: $font;
     color: $font-color;
-    /*font-weight: 500px;*/
     font-size: 24px;
     text-align: center;
     padding: 1rem;
@@ -34,7 +33,7 @@
         align-self: center;
         width: 180px;
         height: 180px;
-        margin: 0 15px 15px;
+        margin: 0px 25px 25px;
         border-radius: 4px;
         box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.15);
         background-size: cover;
@@ -44,6 +43,7 @@
 
     .name_title {
         align-content: center;
+        font-weight: bold;
         font-family: $font-title;
         color: $font-text;
         font-size: 20px;
@@ -58,7 +58,7 @@
         line-height: 24px;
         padding: 10px;
         margin-top: 8px;
-        /*font-weight: ;*/
+        max-width: 300px;
     }
 
     .name_networks {
@@ -80,9 +80,64 @@
 
 @media all and (min-width: 768px){
     .photo_adalaber {
-        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+    .name_title {
+        text-align: center;
     }
     .name_description {
-        justify-content: left;
+        max-width: 500px;
+        text-align: justify;
+    }
+
+    .name_networks {
+        size: 24px;
+    }
+
+    .photo:nth-child(even) {
+        text-align: left;
+        flex-direction: row;
+        padding-left: 3.5rem;
+        gap:1.3rem;
+    }
+    .photo:nth-child(odd) {
+        text-align: right;
+        flex-direction: row-reverse;
+        padding-left: 3.5rem;
+        gap:1.3rem;
     }
 }
+
+@media all and (min-width: 1200px) {
+    .photo_adalaber {
+        width: 300px;
+        height: 300px;
+    }
+    .name_title {
+        text-align: center;
+    }
+    .name_description {
+        text-align: justify;
+        max-width: 1000px;
+    }
+
+    .name_networks {
+        size: 29px;
+    }
+    .photo:nth-child(even) {
+        text-align: left;
+        flex-direction: row;
+        padding-left: 10rem;
+        gap:1.3rem;
+    }
+    .photo:nth-child(odd) {
+        text-align: right;
+        flex-direction: row-reverse;
+        padding-left: 10rem;
+        gap:1.3rem;
+    }
+}
+
+
+    
