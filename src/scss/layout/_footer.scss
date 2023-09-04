@@ -31,7 +31,7 @@
   margin-top: 1.25rem;
   flex-direction: column;
 }
-.f{
+.footer-log{
 margin-left: 18rem;
 }
 @media all and (min-width: 768px){
@@ -58,12 +58,21 @@ margin-left: 18rem;
    width: 12rem;
    height: 5rem; 
 }
-.f{
+.footer-log{
   padding-bottom: 3rem;
   margin-top: -6rem;
   margin-left: 3.5rem;
-
 }
-
-
+}
+@media all and (min-width: 1000px){
+  .footer-copy{
+    margin-left: -70rem;
+  }
+  .footer_ul{
+    margin-right: -43rem;
+    font-size: 1.5rem;
+  }
+  .footer-log{
+    margin-left: 8rem;
+  }
 }
