@@ -10,7 +10,7 @@
 
 .triangle {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 190px;
     width: 0;
     height: 0;
     border-right: 40px solid transparent;
@@ -27,15 +27,24 @@
     text-decoration: none;
     padding-bottom: 20px;
 }
-.equipo {
+.Equipo {
+    width: 100VW;
+    background-color: white;
     color: #54585a;
     font-size: 1.6rem;
-    margin-top: 60px;
     font-family: OpenSans;
-    margin-left: 15px;
-    margin-right: 15px;
     line-height: 24px;
     text-align: center;
+    padding-top: 5rem;
+}
+.grupo{
+    font-family: $font;
+    color: #099d8d;
+    font-size: 2.4rem;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    justify-content: center;
 }
 
 .Atribute {
@@ -57,4 +66,5 @@
     font-size: 22px;
     text-align: center;
     line-height: 45px;
+    justify-content: center;
 }
