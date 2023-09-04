@@ -1,74 +1,88 @@
-.section2-about-us {
-    background-color: whitesmoke;
+.about-us {
+    background-color: $background-color;
+    width: 100vw;
+    height: auto;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-about-us {
-    display:flex;
-    flex-direction: column;
-    font-family: rubik-medium;
-    color: #099d8d;
+    align-items: center;
+    font-family: $font;
+    color: $font-color;
+    /*font-weight: 500px;*/
     font-size: 24px;
-    line-height: 45px;
     text-align: center;
-    padding-top: 30px;
+    padding: 1rem;
+    text-transform: uppercase;
+    
 }
 
-.photo_adalaber {
-    display:flex;
-    position: center;
-    justify-content: center;
+.photo {
+    display: flex;
+    width: 100vw;
+    text-align: center;
     align-content: center;
-    width: 180px;
-    height: 180px;
-    margin: 0 55px 15px;
-    border-radius: 4px;
-    border: 5px solid grey;
-
-}
-
-.name_adalaber {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 10px;
-    font-family: Open Sans;
-    color: black;
-    font-size: 20px;
-    line-height: 45px;
-
-}
-.description_adalaber {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    font-family: Open Sans;
-    color: #54585a;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 10px;
-    padding-top: 10px;
-}
-
-.social_networks {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    color: #099d8d;
-    size: 16px;
-    line-height: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    flex-direction: row;
-    gap:10px;
-}
-
-@media (min-width: 768px){
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 1rem;  
     
     .photo_adalaber {
-        justify-content: center;
-
+        align-self: center;
+        width: 180px;
+        height: 180px;
+        margin: 0 15px 15px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.15);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    .description_adalaber {
+
+    .name_title {
+        align-content: center;
+        font-family: $font-title;
+        color: $font-text;
+        font-size: 20px;
+    }
+
+    .name_description {
+        display: flex;
+        justify-content: center;
+        font-family: $font-title;
+        color: $font_color-text;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px;
+        margin-top: 8px;
+        /*font-weight: ;*/
+    }
+
+    .name_networks {
+        display: flex;
+        color: $font-color;
+        justify-content: center;
+        size: 16px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap:10px;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        flex-direction: row;
+    }
+
+}
+
+@media all and (min-width: 768px){
+    .photo_adalaber {
+        justify-content: center;
+    }
+    .name_description {
         justify-content: left;
     }
 }
