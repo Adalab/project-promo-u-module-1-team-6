@@ -21,16 +21,40 @@
   color: grey;
   text-decoration: none;
 }
- ul{
+.footer_ul{
   list-style: none;
 }
-.log2{
+.footer_log2{
   width: 7.24rem;
   height: 2.8rem;
   display: flex;
   margin-top: 1.25rem;
-  margin-left: 18rem;
+  
   flex-direction: column;
 }
+@media all and (min-width: 768px){
+  .footer{
+    background-color: #ffffff ;
+   
+  }
+  .footer-copy{
+    margin-left: -540px;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .footer_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: -300px;
+    margin-top: -22px;
+  }
+  .footer_log2{
+    margin-left: 70px;
+}
+.f{
+  padding-bottom: 25px;
+  margin-top: -40px;
+}
 
-
+}
